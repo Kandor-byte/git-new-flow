@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	background-color: brown;
+	color: white;
+	width: 360px;
+	padding: 10px 0px;
+	border-radius: 15px;
+	margin: auto;
+	transition: 1s;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+}
+
+h1:hover {
+	background-color: orange;
+	color: brown;
+}
+
+a:hover {
+	color: brown;
+}
